@@ -1,0 +1,57 @@
+<style>
+  #container { 
+    position:relative;
+   	background-color:lightgray; 
+    margin:20px; 
+    height:300px;
+  	}
+
+  #top-left { 
+	position:absolute;
+ 	top:0;
+ 	left:0;
+    padding:20px;
+    background-color:darkgray; 
+    color:white; 
+  	}
+ 
+  #bottom-right { 
+    position:absolute;
+ 	bottom:0;
+ 	right:0;
+    padding:20px;
+    background-color:darkgray; 
+    color:white;
+  	}
+ 
+  .block-container { 
+	position:relative;	
+    background-color:lightgray;
+    top:100px;
+    left:0px;
+  	}
+  	
+  .block { 
+    float:left;
+    background-color:red;
+    height:40px;
+    width:40px;
+    margin:10px;
+	}
+
+</style>
+
+<div id='site'>
+Above Container
+<div id='container'>
+  <div id='top-left'>I'm in the top left!</div>
+  <div id='bottom-right'>I'm in the bottom right!</div>
+  <div class='block-container'>
+	  <div class='block'></div>
+	  <div class='block'></div>
+	  <div class='block'></div>
+	  <div class='block'></div>
+  </div>
+</div>
+Below Container
+</div>
