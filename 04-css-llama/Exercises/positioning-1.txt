@@ -1,42 +1,39 @@
 <style>
   #container { 
-    position:relative;
-   	background-color:lightgray; 
-    margin:20px; 
-    height:300px;
+    	position:relative;
+    	background-color:lightgray; 
+    	margin:20px; 
+    	height:300px;
   	}
 
   #top-left { 
 	position:absolute;
  	top:0;
  	left:0;
-    padding:20px;
-    background-color:darkgray; 
-    color:white; 
+    	padding:20px;
+      	background-color:darkgray; 
+    	color:white; 
   	}
  
   #bottom-right { 
-    position:absolute;
+    	position:absolute;
  	bottom:0;
  	right:0;
-    padding:20px;
-    background-color:darkgray; 
-    color:white;
+    	padding:20px;
+      	background-color:darkgray; 
+    	color:white;
   	}
  
   .block-container { 
 	position:relative;	
-    background-color:lightgray;
-    top:100px;
-    left:0px;
+	top:100px;
   	}
   	
   .block { 
-    float:left;
-    background-color:red;
-    height:40px;
-    width:40px;
-    margin:10px;
+    	float:left;
+    	background-color:red;
+    	padding:20px;
+        margin:10px;
 	}
 
 </style>
