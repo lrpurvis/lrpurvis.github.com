@@ -1,38 +1,93 @@
 
 <style>
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+	}  
   #site-header {
     position:relative;
     top:0;
     left:0;
-    background-color:lightyellow;
+    height:100px;
+    background-color:purple;
     }
+  #logo {
+    position:absolute;
+    top:0;
+    left:10px;
+    width:200px;
+    height:80px;
+    margin:0;
+    background-color:white;
+  }
   #top-nav {
     position:absolute;
     top:0;
-    right:0;
+    right:10px;
+    width:100px;
+    background-color:white;
+  }
+  #main-menu {
+    padding:10px;
+    margin-bottom:20px;
     background-color:teal;
+  }
+  #main-menu ul {
+    margin:0;
+    list-style:none;
+    padding:0;
+  }
+  #main-menu ul li {
+    float:left;
+    padding:10px;
+    margin-right:10px;
+    background-color:white;
   }
   #page {
     float:left;
-    background-color:lightblue;}
+    width:300px;
+    padding:10px;
+    margin-left:10px;
+    margin-bottom:20px;
+    background-color:lightblue;
+  }
   
   #sidebar {
     float:right;
-    background-color:lightblue;}
+    padding:10px;
+    background-color:lightblue;
+  }
+  
+  #sidebar ul {
+    list-style:none;
+    padding:0;
+  }
   
   #site-footer {
-    clearfix:after;
+    clear:both;
+    padding:10px;
     background-color:teal;}
   
-
+  #footer-content {
+    background-color:white;
+    width:200px;
+  }
+  #footer-content h1 {
+    margin:0;
+  }
+  
 </style>
 	
 <header id='site-header'>
-  <h1>Logo</h1>
+  <h1 id='logo'>Logo</h1>
   <nav id='top-nav'>top-nav</nav>
 </header>
 
-<nav id='main-menu'>
+<nav id='main-menu' class='clearfix'>
   <ul>
    <li>main menu</li>
    <li>main menu</li>
@@ -40,16 +95,16 @@
   </ul>	
 </nav>
 
-<article id='page'>
+<article id='page' class='cleafix'>
     <h1>Header 1</h1>
     <h2>Subhead</h2>
     <p>Text goes here, remember it's length might vary, so you might not want to set a specific height. Floating might be good.</p>
 
     <h2>Subhead</h2>
-    <p>ext goes here, remember it's length might vary, so you might not want to set a specific height. Floating might be good.</p>
+    <p>Text goes here, remember it's length might vary, so you might not want to set a specific height. Floating might be good.</p>
 </article>
 
-<aside id='sidebar'>
+<aside id='sidebar' class='clearfix'>
   <h1>Sidebar</h1>
   <ul>
     <li>Sidebar list</li>
@@ -63,4 +118,3 @@
     <h1>Footer</h1>     
   </section>
 </footer>
-
