@@ -95,7 +95,7 @@
   </ul>	
 </nav>
 
-<article id='page' class='clearfix'>
+<article id='page' class='cleafix'>
     <h1>Header 1</h1>
     <h2>Subhead</h2>
     <p>Text goes here, remember it's length might vary, so you might not want to set a specific height. Floating might be good.</p>
