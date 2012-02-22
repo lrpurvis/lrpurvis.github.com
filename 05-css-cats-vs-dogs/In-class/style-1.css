@@ -1,5 +1,4 @@
 
-
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -54,8 +53,8 @@ table {
 /* Center Content */
 
 .centered { 
-  margin:0 auto;
-  width:960px;
+  margin: 0 auto;
+  width: 960px;
 }
 
 
@@ -73,56 +72,65 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+header {
+	position: relative;
+	height: 250px;
+}
 
-body {
-    font-family:'arial'
-    }
-    
-#top-menu {
-    width: 830px;
+header img {
+	margin: 0 auto;
+	position: absolute;
+	top: 50px;
+	left: 30%;
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+nav {
+	position: absolute;
+	top: 200px;
+	left: 0;
 }
+
+#menu {
+	font-weight: bold;
+}
+
+nav ul li {
+	float: left;
+	margin: 20px;
+}
+
+article {
+	float:left;
+	width: 40%;
+}
+
+article img {
+	width: 350px;
+}
+
+footer {
+	clear:both;
+	position: relative;
+	bottom: 0;
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
