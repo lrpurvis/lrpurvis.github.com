@@ -155,7 +155,40 @@ h2 {
     float:right;
 }
 
+aside ul li a {
+    color: #744918;
+    text-decoration: none;
+    font-size: 9px;
+}
 
+#robo {
+    width: 50px;
+}
+
+#footer-wrapper {
+    position: relative;
+    background-color: #744918
+}
+
+#footer-contact {
+        color: #f1f5df;
+        float: left;
+        width: 53%;
+        margin-left: 110px;
+        font-size: 10px;
+}
+
+#site-footer h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #f1f5df;
+}
+
+#footer-follow ul li {
+    height: 20%;
+}
+}
 
 
 
