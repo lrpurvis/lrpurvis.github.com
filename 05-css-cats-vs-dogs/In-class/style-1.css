@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.4em;
 }
 ol, ul {
 	list-style: none;
@@ -79,7 +79,7 @@ html[xmlns] .clearfix { display: block; }
 
 header {
 	position: relative;
-	margin-top: 40px;
+	margin-top: 2.5em;
 }
 
 header img {
@@ -89,9 +89,9 @@ header img {
 
 nav {
     display: block;
-    width: 635px;
-    margin: 40px auto 20px auto;
-    font-size: 22px;
+    width: 100%;
+    margin: 2.5em auto 1.25em auto;
+    font-size: 1.375em;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
@@ -99,19 +99,20 @@ nav {
 #top-menu {
 	font-weight: bold;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 h1 {
     font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 2em;
+    line-height: 1em;
+    margin-top: .625em;
+    margin-bottom: .625em;
 }
 
 nav ul li {
 	float: left;
-	margin: 5px 20px 0 20px;
+	margin: .3125em 1.25em 0 1.25em;
 }
 
 a {
@@ -147,6 +148,32 @@ footer {
     float: right;
     margin-top: 10px;
 }
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width:1050px) {
+    nav {font-size:1.2em;}
+}
+
+@media screen and (max-width:900px) {
+    nav {font-size:1em;}
+}
+
+@media screen and (max-width:800px) {
+    nav ul li {float: none; text-align: left; list-style-type: disc; } 
+}
+
+@media screen and (max-width:650px) {
+  article { float:none; width:98%; margin:0 1%; }
+  h1 {line-height: 1em;}
+  article p {font-size: 1em;}
+  article { margin-bottom: 1.25em;}
+  footer {margin-top: 0;}
+  nav { font-size: 1em;}
+  footer {font-size:.65em;}
+  }
 	
 
 
