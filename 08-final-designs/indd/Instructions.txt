@@ -1,0 +1,112 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: site.indd
+
+PACKAGE DATE: 4/17/12 5:56 PM
+Creation Date: 3/12/12
+Modification Date: 4/17/12
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On Page1, 3, 5, 7, 9, 11
+
+FONTS
+31 Fonts Used; 0 Missing, 29 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Not Packaged
+- Name: AbadiMT-CondensedLight; Type: TrueType, Status: Embedded
+- Name: Ampersand; Type: TrueType, Status: Embedded
+- Name: ArialMT; Type: TrueType, Status: Embedded
+- Name: ArialNarrow; Type: ???, Status: Embedded
+- Name: ArialNarrow-Bold; Type: ???, Status: Embedded
+- Name: ArialNarrow-BoldItalic; Type: TrueType, Status: Embedded
+- Name: ArialNarrow-Italic; Type: TrueType, Status: Embedded
+- Name: Bebas; Type: TrueType, Status: Embedded
+- Name: BebasNeue; Type: Type 1, Status: Embedded
+- Name: BellMT; Type: TrueType, Status: Embedded
+- Name: BellMTItalic; Type: TrueType, Status: Embedded
+- Name: Futura-CondensedMedium; Type: TrueType, Status: Embedded
+- Name: Futura-MediumItalic; Type: ???, Status: Embedded
+- Name: Impact; Type: TrueType, Status: Embedded
+- Name: MinionPro-Bold; Type: Type 1, Status: Embedded
+- Name: MinionPro-Regular; Type: ???, Status: Embedded
+- Name: MinionPro-Regular; Type: OpenType Type 1, Status: OK
+- Name: MinionPro-Semibold; Type: Type 1, Status: Embedded
+- Name: Museo-300; Type: Type 1, Status: Embedded
+- Name: MuseoSans-500; Type: Type 1, Status: Embedded
+- Name: MuseoSlab-500; Type: Type 1, Status: Embedded
+- Name: MyriadPro-Black; Type: Type 1, Status: Embedded
+- Name: MyriadPro-Bold; Type: OpenType Type 1, Status: OK
+- Name: MyriadPro-Bold; Type: Type 1, Status: Embedded
+- Name: MyriadPro-BoldCond; Type: Type 1, Status: Embedded
+- Name: MyriadPro-Cond; Type: ???, Status: Embedded
+- Name: MyriadPro-LightCond; Type: Type 1, Status: Embedded
+- Name: MyriadPro-Regular; Type: Type 1, Status: Embedded
+- Name: MyriadPro-SemiboldCond; Type: Type 1, Status: Embedded
+- Name: QuicksandBook-Regular; Type: Type 1, Status: Embedded
+- Name: Univers-Condensed; Type: Type 1, Status: Embedded
+
+
+COLORS AND INKS
+4 Process Inks; 0 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Magenta; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Black; Angle: 0.000; Lines/Inch: 0.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 33 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 12 use RGB color space
+
+
+PRINT SETTINGS
+PPD: N/A, (Canon MP640)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0 px, 0 px, 0 px, 0 px
+Color: Composite RGB
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 2560 px x 1440 px
+Paper Dimensions: 612 px x 792 px
+Orientation: Landscape
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. site.indd; type: Adobe InDesign publication; size: 7264K
