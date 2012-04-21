@@ -15,9 +15,9 @@
         	<header>
             	<nav id="menu">
                 	<ul class="menu clearfix">
-                    	<li><a href="#home">home</a></li>
-                    	<li><a href="#portfolio">portfolio</a>
-                        	<ul>
+                    	<li><a href="#home" id="home">home</a></li>
+                    	<li id="portfolio-icon"><a href="#portfolio" id="portfolio-nav">portfolio</a>
+                        	<ul id="portfolio-sub">
                             	<li><a href="#posters">posters</a></li>
                             	<li><a href="#direct-mail">direct mail</a></li>
                             	<li><a href="#illustrations">illustrations</a></li>
@@ -25,80 +25,127 @@
                             	<li><a href="#digital-media">digital media screens</a></li>
                         	</ul>
                     	</li>                      
-                    	<li><a href="#resume">resume</a></li>
-                    	<li><a href="#contact">contact</a></li>
+                    	<li><a href="#resume">resume </a></li>
+                    	<li><a href="#contact" id="contact">contact</a></li>
                 	</ul>
             	</nav>
         	</header>
     	</section>
 
     	<section id="logo">
-        	<img src="images/leahrhoades.jpg" alt="leah rhoades"/>
+        	<img src="images/background/leahrhoades.png" alt="leah rhoades"/>
     	</section>
         
-    	<section id="description">
-        	<p> here's some stuff about what i do, or something.</p>
-    	</section>
+        <div class="bubble"  id="description">
+            	<div class="pointer">
+            		<div class="one"></div>
+            		<div class="two"></div>
+            	</div>
+            	<div class="content">
+            		<p>here's some stuff about what i do, or something.</p>
+            	</div>
+            </div>
         
     	<div id="portfolio">
-        	<h2 id="posters">Posters</h2>
-            	<div id="poster-wrapper">
-					<ul class="poster-examples">
-                		<li><img src="images/posters/beattheheat.jpg" alt="Beat the Heat"</li>
-                		<li><img src="images/posters/pilatesspring.jpg" alt="Pilates Spring Special"</li>
-                		<li><img src="images/posters/rehab.jpg" alt="Physical Therapy Rehab Session"</li>
-                		<li><img src="images/posters/groupetiquette.jpg" alt="Group Fitness Etiquette"</li>
-                		<li><img src="images/posters/summerfun.jpg" alt="Summer Fun Schedule"</li>
-                		<li><img src="images/posters/luau.jpg" alt="Member Appreciation Luau"</li>
-                		<li><img src="images/posters/benefit.jpg" alt="For the Benefit of Karen Megaro"</li>
-                		<li><img src="images/posters/stuffthebus.jpg" alt="Stuff the Bus"</li>
-                		<li><img src="images/posters/zumba.jpg" alt="Zumba for Autism"</li>
-            		</ul> 
-				</div>
-        	<h2 id="direct-mail">Direct Mail</h2>
-            	<div id="direct-wrapper">
-					<ul class="dm-examples">
-						<li><img src="images/postcards/ruth.jpg" alt="Front of Meet Ruth"</li>
-						<li><img src="images/postcards/ruth2.jpg" alt="Back of Meet Ruth"</li>
-						<li><img src="images/postcards/looks.jpg" alt="Front of Looks Can Be Deceiving"</li>
-						<li><img src="images/postcards/looks2.jpg" alt="Back of Looks Can Be Deceiving"</li>
-						<li><img src="images/postcards/168hours.jpg" alt="Front of 168 Hours"</li>
-						<li><img src="images/postcards/168hours2.jpg" alt="Back of 168 Hours"</li>
-						<li><img src="images/postcards/gift.jpg" alt="Front of Gift of Health"</li>
-						<li><img src="images/postcards/gift2.jpg" alt="Back of Gift of Health"</li>
-            		</ul>
-				</div>
-			<h2 id="illustrations">Illustrations</h2>
-				<div id="ill-wrapper">
-					<ul class="illustration-examples">
-						<li><img src="images/illustrations/birdsday.jpg" alt="Happy Birdsday"</li>
-						<li><img src="images/illustrations/sectoral.jpg" alt="Sectoral Heterochromia"</li>
-						<li><img src="images/illustrations/central.jpg" alt="Central Heterochromia"</li>
-						<li><img src="images/illustrations/complete.jpg" alt="Complete Heterochromia"</li>
-						<li><img src="images/illustrations/invitation.jpg" alt="Wedding Invitation"</li>
-						<li><img src="images/illustrations/tweezers.jpg" alt="Tweezers"</li>
-					</ul>
-				</div>
-        	<h2 id="flyers">Flyers</h2>
-				<div id= "flyer-wrapper">
-            		<ul class="flyer-examples">
-                		<li><img src="images/flyers/bigsplash.jpg" alt="Big Splash"></li>
-                		<li><img src="images/flyers/giftofhealth.jpg" alt="Gift of Health"></li>
-                		<li><img src="images/flyers/springfling.jpg" alt="Spring Fling"></li>
-						<li><img src="images/flyers/endofsummer.jpg" alt="End of Summer"></li>
-						<li><img src="images/flyers/warriorworkout.jpg" alt="Warrior Workout"></li>
-            		</ul>
-				</div>
-        	<h2 id="digital-media">Digital Media Screens</h2>
-				<div id= "digital-wrapper">
-            		<ul class="digital-examples">
-						<li><img src="images/screens/childcare.jpg" alt="Child Care"></li>
-						<li><img src="images/screens/farm.jpg" alt="Farm to Table"></li>
-						<li><img src="images/screens/dog.jpg" alt="Dog Days of Summer"></li>
-						<li><img src="images/screens/locker.jpg" alt="Rent a Locker"></li>
-						<li><img src="images/screens/rotary.jpg" alt="Run with Rotary"></li>
-            		</ul>
-				</div>
+        	<div class="bubble"  id="posters">
+            	<div class="content">
+            		<h2>Posters</h2>
+            	</div>
+        		<div class="pointer">
+            		<div class="one"></div>
+            		<div class="two"></div>
+            	</div>
+            </div>
+        	<section id="poster-wrapper" class="wrapper">
+    			<ul class="examples clearfix">
+            		<li><img src="images/posters/beattheheat.jpg" alt="Beat the Heat"></li>
+            		<li><img src="images/posters/pilatesspring.jpg" alt="Pilates Spring Special"></li>
+            		<li><img src="images/posters/rehab.jpg" alt="Physical Therapy Rehab Session"></li>
+            		<li><img src="images/posters/groupetiquette.jpg" alt="Group Fitness Etiquette"></li>
+            		<li><img src="images/posters/summerfun.jpg" alt="Summer Fun Schedule"></li>
+            		<li><img src="images/posters/luau.jpg" alt="Member Appreciation Luau"></li>
+            		<li><img src="images/posters/benefit.jpg" alt="For the Benefit of Karen Megaro"></li>
+            		<li><img src="images/posters/stuffthebus.jpg" alt="Stuff the Bus"></li>
+            		<li><img src="images/posters/zumba.jpg" alt="Zumba for Autism"></li>
+        		</ul> 
+    		</section>
+        	<div class="bubble"  id="direct-mail">
+            	<div class="content">
+            		<h2>Direct Mail</h2>
+            	</div>
+        		<div class="pointer">
+            		<div class="one"></div>
+            		<div class="two"></div>
+            	</div>
+            </div>
+            <section id="direct-wrapper" class="wrapper">
+				<ul class="examples clearfix">
+					<li><img src="images/postcards/moves.jpg" alt="What Moves You"></li>
+					<li><img src="images/postcards/ruth.jpg" alt="Front of Meet Ruth"></li>
+					<li><img src="images/postcards/looks.jpg" alt="Front of Looks Can Be Deceiving"></li>
+					<li><img src="images/postcards/ruth2.jpg" alt="Back of Meet Ruth"></li>
+					<li><img src="images/postcards/looks2.jpg" alt="Back of Looks Can Be Deceiving"></li>
+					<li><img src="images/postcards/168hours.jpg" alt="Front of 168 Hours"></li>
+					<li><img src="images/postcards/cheer.jpg" alt="Front of Holiday Cheer"></li>
+					<li><img src="images/postcards/168hours2.jpg" alt="Back of 168 Hours"></li>
+					<li><img src="images/postcards/cheer2.jpg" alt="Back of Holiday Cheer"></li>
+        		</ul>
+    		</section>
+			<div class="bubble" id="illustrations">
+            	<div class="content">
+            		<h2>Illustrations</h2>
+            	</div>
+        		<div class="pointer">
+            		<div class="one"></div>
+            		<div class="two"></div>
+            	</div>
+            </div>
+			<section id="ill-wrapper" class="wrapper">
+				<ul class="examples clearfix">
+					<li><img src="images/illustrations/birdsday.jpg" alt="Happy Birdsday"></li>
+					<li><img src="images/illustrations/sectoral.jpg" alt="Sectoral Heterochromia"></li>
+					<li><img src="images/illustrations/central.jpg" alt="Central Heterochromia"></li>
+					<li><img src="images/illustrations/complete.jpg" alt="Complete Heterochromia"></li>
+					<li><img src="images/illustrations/invitation.jpg" alt="Wedding Invitation"></li>
+					<li><img src="images/illustrations/tweezers.jpg" alt="Tweezers"></li>
+				</ul>
+    		</section>
+        	<div class="bubble" id="flyers">
+            	<div class="content">
+            		<h2>Flyers</h2>
+            	</div>
+        		<div class="pointer">
+            		<div class="one"></div>
+            		<div class="two"></div>
+            	</div>
+            </div>
+			<section id= "flyer-wrapper" class="wrapper">
+        		<ul class="examples clearfix">
+            		<li><img src="images/flyers/bigsplash.jpg" alt="Big Splash"></li>
+            		<li><img src="images/flyers/giftofhealth.jpg" alt="Gift of Health"></li>
+            		<li><img src="images/flyers/springfling.jpg" alt="Spring Fling"></li>
+					<li><img src="images/flyers/endofsummer.jpg" alt="End of Summer"></li>
+					<li><img src="images/flyers/warriorworkout.jpg" alt="Warrior Workout"></li>
+        		</ul>
+    		</section>
+        	<div class="bubble" id="digital-media">
+            	<div class="content">
+            		<h2>Digital Media Screens</h2>
+            	</div>
+        		<div class="pointer">
+            		<div class="one"></div>
+            		<div class="two"></div>
+            	</div>
+            </div>
+			<section id= "digital-wrapper" class="wrapper">
+        		<ul class="examples clearfix">
+					<li><img src="images/screens/childcare.jpg" alt="Child Care"></li>
+					<li><img src="images/screens/farm.jpg" alt="Farm to Table"></li>
+					<li><img src="images/screens/dog.jpg" alt="Dog Days of Summer"></li>
+					<li><img src="images/screens/locker.jpg" alt="Rent a Locker"></li>
+					<li><img src="images/screens/rotary.jpg" alt="Run with Rotary"></li>
+        		</ul>
+    		</section>
     	</div>
 	</div>
 </body>

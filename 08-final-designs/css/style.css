@@ -32,7 +32,38 @@ footer, header, hgroup, menu, nav, section {
 
 }
 body {
-	line-height: 1.4em;}
+	line-height: 1.4em;
+}
+	 
+
+nav {
+    position: fixed;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0 auto 1.25em auto;
+    font-size: 1em;
+    border-bottom: 1px solid white;
+    background-color: #042E38;
+    z-index: 10;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav ul li {
+	float: left;
+	margin: .3125em 1.25em 0 1.25em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -40,16 +71,110 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	text-align: center;    
+	color: white;
+	font-weight: 700;
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+.bubble {
+	width: 300px;
+	color: #1f839d;
+	padding-top: 5em;
+	margin: 1% 1% 1% 20%;
+
+}
+
+.bubble .pointer {
+	height: 15px;
+	background: #1f839d;
+}
+
+.bubble .pointer div {
+	height: 100%;
+	background: #042E38;
+}
+
+.bubble .pointer .one {
+	width: 75%;
+	-moz-border-radius-topright: 15px;
+	-webkit-border-top-right-radius: 15px;
+	float: left;
+}
+
+.bubble .pointer .two {
+	width: 25%;
+	float: right;
+	-moz-border-radius-topleft: 15px;
+	-webkit-border-top-left-radius: 15px;
+}
+
+.bubble .content {
+	padding: 15px;
+	background: #1f839d;
+	text-align: center;
+}
+
+#description.bubble {
+	width: 370px;
+	color: #ffffff;
+	padding-top: 0em;
+	margin: 1em 1em 20em 37em;
+}
+
+#description.bubble .pointer {
+	height: 15px;
+	background: #1f839d;
+}
+
+#description.bubble .pointer div {
+	height: 100%;
+	background: #042E38;
+}
+
+#description.bubble .pointer .one {
+	width:25%;
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-bottomright: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	float: left;
+}
+
+#description.bubble .pointer .two {
+	width: 75%;
+	float: right;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-bottomleft: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+}
+
+#description.bubble .content {
+	padding:10px;
+	background:#1f839d;
+	text-align:center;
+}
+
+.examples li {
+    float: left;
+    margin: 0 1em 1em 0;
+}
 
 /* Center Content */
 
@@ -73,12 +198,13 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-#body {
-
+body {
+    text-align: center;
+	background: #042E38 url("../images/background/road.png") center repeat-y;
 }
 
 #content {
-	width: 70%;
+	max-width: 70%;
     margin: 0 auto;
 }
 
@@ -86,20 +212,12 @@ html[xmlns] .clearfix { display: block; }
 	position: absolute;
 	display: block;
 	width: 100%;
-	padding: 0;
+	padding: 5% 0%;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	background-color: #042E38;
-}
 
-nav {
-    display: block;
-    width: 100%;
-    margin: 2.5em auto 1.25em auto;
-    font-size: 1.375em;
-    border-bottom: 1px solid white;
 }
 
 #menu {
@@ -107,133 +225,90 @@ nav {
 	font-weight: bold;
 	text-transform: lowercase;
 	text-align: center;
+	padding-bottom: 28px;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    margin-top: -5em;
+    padding-top: 8em;
+    padding-bottom: .25em;
+    padding-left: 7.1em;
+    background-color: #042E38;
 }
 
 #portfolio img {
 	border: .25em solid;
 }
 
-#poster-wrapper {
+.wrapper {
 	display:block;
 	background-color: rgba(255,255,255,0.75);
 	width: 75%;
-	padding: 1.5em;
+	padding: 5%;
 }
 
-#direct-wrapper {
-	display:block;
-	background-color: rgba(255,255,255,0.75);
-	width: 75%;
-	padding: 1.5em;
+#description {
+    margin-bottom: 7em;
 }
 
-#ill-wrapper {
-	display:block;
-	background-color: rgba(255,255,255,0.75);
-	width: 75%;
-	padding: 1.5em;
+#home {
+    margin: 0 auto;
+    display: block;
+    background: url("../images/background/home.png") no-repeat;
+    height: 50px;
+    width: 50px;
 }
 
-#flyer-wrapper {
-	display:block;
-	background-color: rgba(255,255,255,0.75);
-	width: 75%;
-	padding: 1.5em;
+#home:hover {
+    margin: 0 auto;
+    background: url("../images/background/home-hover.png") no-repeat;
 }
 
-#digital-wrapper {
-	display:block;
-	background-color: rgba(255,255,255,0.75);
-	width: 75%;
-	padding: 1.5em;
+#portfolio-nav {
+    margin: 0 auto;
+    display: block;
+    background: url("../images/background/portfolio.png") no-repeat;
+    height: 50px;
+    width: 54.13px;
 }
 
-h2 {
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;    
-	color: white;
-	font-weight: 700;
-    font-size: 3em;
-    line-height: 1em;
-    margin-top: .625em;
-    margin-bottom: .625em;
+#portfolio-nav:hover {
+    margin: 0 auto;
+    display: block;
+    background: url("../images/background/portfolio-hover.png") no-repeat;
 }
 
-nav ul li {
-	float: left;
-	margin: .3125em 1.25em 0 1.25em;
+#contact {
+    margin: 0 auto;
+    display: block;
+    background: url("../images/background/contact.png") no-repeat;
+    height: 50px;
+    width: 50px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+#contact:hover {
+    margin: 0 auto;
+    display: block;
+    background: url("../images/background/contact-hover.png") no-repeat;
 }
 
-article {
-	float: left;
-	width: 49%;
+#portfolio-icon {
+    position: relative;
 }
 
-#dog {
-    margin-right: 2%;
+#portfolio-sub {
+    position: absolute;
+    display: none;
+    width: 900px;
+    left: -240px;
 }
 
-article img {
-	width: 350px;
+#portfolio-icon:hover #portfolio-sub {
+    display: block;
 }
-
-#copy {
-    float: left;
-    margin-top: 10px;
-}
-
-#copywrite {
-    float: right;
-    margin-top: 10px;
-}
-
-img {
-    max-width: 100%;
-}
-
-@media screen and (max-width:1050px) {
-    nav {font-size:1.2em;}
-}
-
-@media screen and (max-width:900px) {
-    nav {font-size:1em;}
-}
-
-@media screen and (max-width:800px) {
-    nav ul li {float: none; text-align: left; list-style-type: disc; } 
-}
-
-@media screen and (max-width:650px) {
-  article { float:none; width:98%; margin:0 1%; }
-  h1 {line-height: 1em;}
-  article p {font-size: 1em;}
-  article { margin-bottom: 1.25em;}
-  footer {margin-top: 0;}
-  nav { font-size: 1em;}
-  footer {font-size:.65em;}
-  }
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
