@@ -15,26 +15,26 @@
         	<header>
             	<nav id="menu">
                 	<ul class="menu clearfix">
-                    	<li><a href="#home" id="home">home</a></li>
-                    	<li id="portfolio-icon"><a href="#portfolio" id="portfolio-nav">portfolio</a>
+                    	<li><a href="#home" id="home-nav"></a></li>
+                    	<li id="portfolio-icon"><a href="#portfolio" id="portfolio-nav"></a>
                         	<ul id="portfolio-sub">
-                            	<li><a href="#posters">posters</a></li>
-                            	<li><a href="#direct-mail">direct mail</a></li>
-                            	<li><a href="#illustrations">illustrations</a></li>
-                            	<li><a href="#flyers">flyers</a></li>
-                            	<li><a href="#digital-media">digital media screens</a></li>
+                            	<li><a href="#posters">Posters</a></li>
+                            	<li><a href="#direct-mail">Direct Mail</a></li>
+                            	<li><a href="#illustrations">Illustrations</a></li>
+                            	<li><a href="#flyers">Flyers</a></li>
+                            	<li><a href="#digital-media">Digital Media Screens</a></li>
                         	</ul>
                     	</li>                      
-                    	<li><a href="#resume">resume </a></li>
-                    	<li><a href="#contact" id="contact">contact</a></li>
+                    	<li><a href="#resume" id="resume-nav"></a></li>
+                    	<li><a href="#contact" id="contact-nav"></a></li>
                 	</ul>
             	</nav>
         	</header>
     	</section>
 
-    	<section id="logo">
+    	<div class="logo" id="home">
         	<img src="images/background/leahrhoades.png" alt="leah rhoades"/>
-    	</section>
+    	</div>
         
         <div class="bubble"  id="description">
             	<div class="pointer">
@@ -137,7 +137,7 @@
             		<div class="two"></div>
             	</div>
             </div>
-			<section id= "digital-wrapper" class="wrapper">
+			<section id="digital-wrapper" class="wrapper">
         		<ul class="examples clearfix">
 					<li><img src="images/screens/childcare.jpg" alt="Child Care"></li>
 					<li><img src="images/screens/farm.jpg" alt="Farm to Table"></li>
@@ -147,6 +147,59 @@
         		</ul>
     		</section>
     	</div>
+    	<div class="bubble" id="resume">
+        	<div class="content">
+        		<h2>Résumé</h2>
+        	</div>
+    		<div class="pointer">
+        		<div class="one"></div>
+        		<div class="two"></div>
+        	</div>
+        </div>
+		<section id= "resume-wrapper" class="wrapper">
+    		<img src="images/resume/leahrhoades_resume.png" alt="Resume of Leah Rhoades">
+    	</section>
+    	<div class="bubble" id="contact">
+        	<div class="content">
+        		<h2>Contact</h2>
+        	</div>
+    		<div class="pointer">
+        		<div class="one"></div>
+        		<div class="two"></div>
+        	</div>
+        </div>
+		<section id="contact-wrapper" class="wrapper">
+	        <form method="post" action="contactengine.php">
+		        <div id="contact-form">
+    		        <div id="form-text1">
+    		            <h4>what's your name?</h4>
+    		        </div>
+    		        <input type="text" name="name" id="name">
+        		    <div id="form-text2">
+        		        <h4>email address</h4>
+        		    </div>
+        		    <input type="text" name="email" id="email">
+        		    <div id="form-text3">
+        		        <h4>message</h4>
+        		    </div>
+        		    <textarea name="message" id="message"></textarea>
+        		    <p class="submit" id="submit" value=" " name="submit">
+        		    </p>
+    		    </div>
+		    </form>
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+    		</ul>
+		</section>
 	</div>
 </body>
 

@@ -228,7 +228,7 @@ body {
 	padding-bottom: 28px;
 }
 
-#logo {
+.logo {
     display: block;
     margin: 0 auto;
     width: auto;
@@ -236,7 +236,7 @@ body {
     padding-top: 8em;
     padding-bottom: .25em;
     padding-left: 7.1em;
-    background-color: #042E38;
+    background-color: #042E38
 }
 
 #portfolio img {
@@ -254,7 +254,7 @@ body {
     margin-bottom: 7em;
 }
 
-#home {
+#home-nav {
     margin: 0 auto;
     display: block;
     background: url("../images/background/home.png") no-repeat;
@@ -262,9 +262,23 @@ body {
     width: 50px;
 }
 
-#home:hover {
+#home-nav:hover {
     margin: 0 auto;
     background: url("../images/background/home-hover.png") no-repeat;
+}
+
+#contact-nav {
+    margin: 0 auto;
+    display: block;
+    background: url("../images/background/contact.png") no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+#contact-nav:hover {
+    margin: 0 auto;
+    display: block;
+    background: url("../images/background/contact-hover.png") no-repeat;
 }
 
 #portfolio-nav {
@@ -281,18 +295,18 @@ body {
     background: url("../images/background/portfolio-hover.png") no-repeat;
 }
 
-#contact {
+#resume-nav {
     margin: 0 auto;
     display: block;
-    background: url("../images/background/contact.png") no-repeat;
+    background: url("../images/background/resume.png") no-repeat;
     height: 50px;
     width: 50px;
 }
 
-#contact:hover {
+#resume-nav:hover {
     margin: 0 auto;
     display: block;
-    background: url("../images/background/contact-hover.png") no-repeat;
+    background: url("../images/background/resume-hover.png") no-repeat;
 }
 
 #portfolio-icon {
@@ -310,6 +324,26 @@ body {
     display: block;
 }
 
+img {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    margin-top: 1em;
+    margin: 0 auto;
+}
 
+#resume-wrapper img {
+    border: .25em solid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 100%;
+}
 
-
+#contact-form {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 600px;
+    text-align: left;
+    margin-left: 50px;
+}
